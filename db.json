@@ -6,6 +6,12 @@
 		}, {
 			"date": "02-01-2018",
 			"status": false
+		}, {
+			"date": "01-09-2018",
+			"status": true
+		}, {
+			"date": "02-09-2018",
+			"status": false
 		}],
 		"data": {
 			"failure": 35,
