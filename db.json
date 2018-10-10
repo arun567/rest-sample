@@ -44,5 +44,46 @@
 				"missing": 10
 			}
 		}
-	]
+	],
+	"getAssetsDevicesList": [{
+	"name": "ABC",
+	"company_name": "XYZ",
+	"project": "JKL",
+	"device_type": "DST",
+	"MAC": "88888-98ad5445",
+	"serial": "95924524444",
+	"fan_speed": null,
+	"mode": "auto",
+	"power": "ON",
+	"co2": 12,
+	"TVOC": 566,
+	"pm25": 5.4,
+	"humidity": 43.5,
+	"temperature": 52,
+	"status": true,
+	"filter_lifetime": 30,
+	"calibration_date": 1539151636,
+	"next_calibration_dat": 1539151636,
+	"warranty_date": 1539151636
+}, {
+	"name": "DEF",
+	"company_name": "ZYX",
+	"project": "MNO",
+	"device_type": "DST",
+	"MAC": "99999-98ad5445",
+	"serial": "95924525555",
+	"fan_speed": null,
+	"mode": "auto",
+	"power": "ON",
+	"co2": 13,
+	"TVOC": 452,
+	"pm25": 5.7,
+	"humidity": 36.5,
+	"temperature": 65,
+	"status": true,
+	"filter_lifetime": 60,
+	"calibration_date": 1539151636,
+	"next_calibration_dat": 1539151636,
+	"warranty_date": 1539151636
+}]
 }
