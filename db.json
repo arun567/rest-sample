@@ -1,5 +1,6 @@
 {
-	"getAssetsDevicesList": [{
+	"getAssetsDevicesList": {
+		"deviceList": [{
 			"id": "jksdcskjjkew23121842",
 			"device_name": "ABC",
 			"company_name": "XYZ",
@@ -46,6 +47,11 @@
 			"scheduled_filter_replacement": 1539151636,
 			"warranty_date": 1539151636,
 			"product_type": "AP"
+		}],
+		"page_info": {
+			"current_page_num": 1,
+			"current_page_size": 0,
+			"max_page_size": 20
 		}
-	]
+	}
 }
