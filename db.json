@@ -46,55 +46,6 @@
 			"scheduled_filter_replacement": 1539151636,
 			"warranty_date": 1539151636,
 			"product_type": "AP"
-		},
-		{
-			"id": "jksdcskjjkew23121743",
-			"device_name": "ABC",
-			"company_name": "XYZ",
-			"project_name": "JKL, MNO",
-			"device_type": "DST",
-			"mac_address": "88888-98ad5445",
-			"serial_number": "95924524444",
-			"controls": {
-				"fan_speed": null,
-				"mode": "auto",
-				"power": "ON"
-			},
-			"pollutant": [{
-					"name": "PM2.5",
-					"value": 14.58,
-					"unit": "ug/m3"
-				},
-				{
-					"name": "TVOC",
-					"value": 225.1,
-					"unit": "ppb"
-				},
-				{
-					"name": "CO2",
-					"value": 789.2,
-					"unit": "ppm"
-				},
-				{
-					"name": "Temperature",
-					"value": 26.77,
-					"unit": "℃"
-				},
-				{
-					"name": "Humidity",
-					"value": 43.59,
-
-					"unit": "%"
-				}
-			],
-			"is_connected": true,
-			"filter_lifetime": 30,
-			"calibration_date": 1539151636,
-			"next_calibration_date": 1539151636,
-			"scheduled_calibration_date": 1539151636,
-			"scheduled_filter_replacement": 1539151636,
-			"warranty_date": 1539151636,
-			"product_type": "AP"
 		}
 	]
 }
