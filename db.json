@@ -46,44 +46,860 @@
 		}
 	],
 	"getAssetsDevicesList": [{
-	"name": "ABC",
-	"company_name": "XYZ",
-	"project": "JKL",
-	"device_type": "DST",
-	"MAC": "88888-98ad5445",
-	"serial": "95924524444",
-	"fan_speed": null,
-	"mode": "auto",
-	"power": "ON",
-	"co2": 12,
-	"TVOC": 566,
-	"pm25": 5.4,
-	"humidity": 43.5,
-	"temperature": 52,
-	"status": true,
-	"filter_lifetime": 30,
-	"calibration_date": 1539151636,
-	"next_calibration_dat": 1539151636,
-	"warranty_date": 1539151636
-}, {
-	"name": "DEF",
-	"company_name": "ZYX",
-	"project": "MNO",
-	"device_type": "DST",
-	"MAC": "99999-98ad5445",
-	"serial": "95924525555",
-	"fan_speed": null,
-	"mode": "auto",
-	"power": "ON",
-	"co2": 13,
-	"TVOC": 452,
-	"pm25": 5.7,
-	"humidity": 36.5,
-	"temperature": 65,
-	"status": true,
-	"filter_lifetime": 60,
-	"calibration_date": 1539151636,
-	"next_calibration_dat": 1539151636,
-	"warranty_date": 1539151636
-}]
+		"id": "jksdcskjjkew23121842",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew23121743",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew23121642",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew23121543",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew23121442",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew23121343",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew23121242",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew23121143",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew23121042",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew2312943",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew2312842",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew2312743",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew2312642",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew2312543",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew2312442",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew2312243",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}, {
+		"id": "jksdcskjjkew2312142",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	},
+	{
+		"id": "jksdcskjjkew2312343",
+		"device_name": "ABC",
+		"company_name": "XYZ",
+		"project_name": "JKL, MNO",
+		"device_type": "DST",
+		"mac_address": "88888-98ad5445",
+		"serial_number": "95924524444",
+		"controls": {
+			"fan_speed": null,
+			"mode": "auto",
+			"power": "ON"
+		},
+		"pollutant": [{
+				"name": "PM2.5",
+				"value": 14.58,
+				"unit": "ug/m3"
+			},
+			{
+				"name": "TVOC",
+				"value": 225.1,
+				"unit": "ppb"
+			},
+			{
+				"name": "CO2",
+				"value": 789.2,
+				"unit": "ppm"
+			},
+			{
+				"name": "Temperature",
+				"value": 26.77,
+				"unit": "℃"
+			},
+			{
+				"name": "Humidity",
+				"value": 43.59,
+				"unit": "%"
+			}
+		],
+		"is_connected": true,
+		"filter_lifetime": 30,
+		"calibration_date": 1539151636,
+		"next_calibration_date": 1539151636,
+		"scheduled_calibration_date": 1539151636,
+		"scheduled_filter_replacement": 1539151636,
+		"warranty_date": 1539151636,
+		"product_type": "AP"
+	}
+]
 }
