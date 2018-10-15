@@ -1,6 +1,6 @@
 {
-	"data": {
-		"getAssetsDevicesList": {
+	"getAssetsDevicesList": {
+		"data": {
 			"deviceList": [{
 				"id": "jksdcskjjkew23121842",
 				"device_name": "ABC",
