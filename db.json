@@ -1,7 +1,7 @@
 {
 	"getAssetsDevicesList": {
 		"data": {
-			"deviceList": [{
+			"device_list": [{
 				"id": "jksdcskjjkew23121842",
 				"device_name": "ABC",
 				"company_name": "XYZ",
@@ -40,7 +40,7 @@
 						"unit": "%"
 					}
 				],
-				"is_connected": true,
+				"isConnected": true,
 				"filter_lifetime": 30,
 				"calibration_date": 1539268594877,
 				"next_calibration_date": 1539268594877,
